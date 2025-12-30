@@ -2,13 +2,13 @@
   "solution": {
     "ember-astro": {
       "impact": "patch",
-      "oldVersion": "0.1.1",
-      "newVersion": "0.1.2",
+      "oldVersion": "0.1.2",
+      "newVersion": "0.1.3",
       "tagName": "latest",
       "constraints": [
         {
           "impact": "patch",
-          "reason": "Appears in changelog section :memo: Documentation"
+          "reason": "Appears in changelog section :bug: Bug Fix"
         },
         {
           "impact": "patch",
@@ -18,5 +18,5 @@
       "pkgJSONPath": "./package.json"
     }
   },
-  "description": "## Release (2025-12-30)\n\n* ember-astro 0.1.2 (patch)\n\n#### :memo: Documentation\n* `ember-astro`\n  * [#18](https://github.com/ember-tooling/ember-astro/pull/18) Link out to ember in the README ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### :house: Internal\n* `ember-astro`\n  * [#16](https://github.com/ember-tooling/ember-astro/pull/16) pnpm dlx create-release-plan-setup@5.1.0 --update ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### Committers: 1\n- [@NullVoxPopuli](https://github.com/NullVoxPopuli)\n"
+  "description": "## Release (2025-12-30)\n\n* ember-astro 0.1.3 (patch)\n\n#### :bug: Bug Fix\n* `ember-astro`\n  * [#19](https://github.com/ember-tooling/ember-astro/pull/19) Add publint and fix the violations it reported ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### :house: Internal\n* `ember-astro`\n  * [#19](https://github.com/ember-tooling/ember-astro/pull/19) Add publint and fix the violations it reported ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### Committers: 1\n- [@NullVoxPopuli](https://github.com/NullVoxPopuli)\n"
 }
