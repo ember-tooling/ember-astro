@@ -1,22 +1,22 @@
 {
   "solution": {
     "ember-astro": {
-      "impact": "patch",
-      "oldVersion": "0.0.0",
-      "newVersion": "0.0.1",
+      "impact": "minor",
+      "oldVersion": "0.0.1",
+      "newVersion": "0.1.0",
       "tagName": "latest",
       "constraints": [
         {
-          "impact": "patch",
-          "reason": "Appears in changelog section :memo: Documentation"
+          "impact": "minor",
+          "reason": "Appears in changelog section :rocket: Enhancement"
         },
         {
           "impact": "patch",
-          "reason": "Appears in changelog section :house: Internal"
+          "reason": "Appears in changelog section :memo: Documentation"
         }
       ],
       "pkgJSONPath": "./package.json"
     }
   },
-  "description": "## Release (2025-08-30)\n\n* ember-astro 0.0.1 (patch)\n\n#### :memo: Documentation\n* `ember-astro`\n  * [#5](https://github.com/universal-ember/ember-astro/pull/5) Add examples ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### :house: Internal\n* `ember-astro`\n  * [#3](https://github.com/universal-ember/ember-astro/pull/3) Add CI ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n  * [#2](https://github.com/universal-ember/ember-astro/pull/2) Release plan ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### Committers: 1\n- [@NullVoxPopuli](https://github.com/NullVoxPopuli)\n"
+  "description": "## Release (2025-12-30)\n\n* ember-astro 0.1.0 (minor)\n\n#### :rocket: Enhancement\n* `ember-astro`\n  * [#9](https://github.com/ember-tooling/ember-astro/pull/9) Move to `renderComponent` ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n  * [#13](https://github.com/ember-tooling/ember-astro/pull/13) chore: add keywords and homepage for Astro library ([@IgnaceMaes](https://github.com/IgnaceMaes))\n\n#### :memo: Documentation\n* `ember-astro`\n  * [#8](https://github.com/ember-tooling/ember-astro/pull/8) Update README.md to show required ember-source version ([@tcjr](https://github.com/tcjr))\n  * [#6](https://github.com/ember-tooling/ember-astro/pull/6) Fix README ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### Committers: 3\n- Ignace Maes ([@IgnaceMaes](https://github.com/IgnaceMaes))\n- Tom Carter ([@tcjr](https://github.com/tcjr))\n- [@NullVoxPopuli](https://github.com/NullVoxPopuli)\n"
 }
