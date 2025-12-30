@@ -17,7 +17,7 @@
 	"dependencies": {
 		"astro": "^5.6.1",
 		"ember-astro": "workspace:*",
-		"ember-source": "6.7.0-beta.1",
+		"ember-source": "~6.8.2",
 		"sharp": "^0.34.2",
 		"vite": "^7.1.3"
 	}

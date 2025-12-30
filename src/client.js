@@ -1,7 +1,7 @@
 // waiting on renderComponent
 // https://github.com/emberjs/ember.js/pull/20962
-import { renderApp } from "./render-app-island.js";
 import { template } from "@ember/template-compiler";
+import { renderComponent } from "@ember/renderer";
 
 function withProps(props, slots, component) {
 	return template(`<EmberAstro_client_component__ @props={{props}} @slots={{slots}} />`, {
@@ -28,7 +28,7 @@ export default function emberAstroClientRenderer(element) {
 			return;
 		}
 
-		let result = await renderApp({ element, component: withProps(props, slots, component) });
+		let result = await renderComponent(withProps(props, slots, component), { into: element });
 
 		existingApplications.set(element, result);
 		element.addEventListener("astro:unmount", () => result.destroy(), { once: true });
