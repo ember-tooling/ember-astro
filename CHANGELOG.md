@@ -2,6 +2,17 @@
 
 ## Release (2025-12-30)
 
+* ember-astro 0.1.1 (patch)
+
+#### :memo: Documentation
+* `ember-astro`
+  * [#14](https://github.com/ember-tooling/ember-astro/pull/14) Revise installation command and component reference ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+
+#### Committers: 1
+- [@NullVoxPopuli](https://github.com/NullVoxPopuli)
+
+## Release (2025-12-30)
+
 * ember-astro 0.1.0 (minor)
 
 #### :rocket: Enhancement
