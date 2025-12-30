@@ -44,8 +44,8 @@ importers:
         specifier: ^9.2.1
         version: 9.2.1
       ember-source:
-        specifier: file:./docs/ember-source-6.8.0-alpha.1.canary+6cf7c2d7.tgz
-        version: file:docs/ember-source-6.8.0-alpha.1.canary+6cf7c2d7.tgz(@glimmer/component@2.0.0)(rsvp@4.8.5)
+        specifier: ~6.8.0
+        version: 6.8.2(@glimmer/component@2.0.0)(rsvp@4.8.5)
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -2179,6 +2179,12 @@ packages:
   ember-router-generator@2.0.0:
     resolution: {integrity: sha512-89oVHVJwmLDvGvAUWgS87KpBoRhy3aZ6U0Ql6HOmU4TrPkyaa8pM0W81wj9cIwjYprcQtN9EwzZMHnq46+oUyw==}
     engines: {node: 8.* || 10.* || >= 12}
+
+  ember-source@6.8.2:
+    resolution: {integrity: sha512-z2ukdKj+97fmo6DqIajKcPFVFwxEIiHzcENmDQVMGlPUR9O7jtENOST7RS3xAiHdCdFoYKRuf7+g2GvNW/7hLw==}
+    engines: {node: '>= 18.*'}
+    peerDependencies:
+      '@glimmer/component': '>= 1.1.2'
 
   ember-source@file:docs/ember-source-6.8.0-alpha.1.canary+6cf7c2d7.tgz:
     resolution: {integrity: sha512-Am6v0YK72iPude6Z0tezVE2wK48/0fcEYjFTTCPBincZiMWFxTZ/ANDdDg21ffrPUbkHxKCZPiHjLuRXWG7HVg==, tarball: file:docs/ember-source-6.8.0-alpha.1.canary+6cf7c2d7.tgz}
@@ -7025,6 +7031,53 @@ snapshots:
       '@babel/traverse': 7.28.3
       recast: 0.18.10
     transitivePeerDependencies:
+      - supports-color
+
+  ember-source@6.8.2(@glimmer/component@2.0.0)(rsvp@4.8.5):
+    dependencies:
+      '@babel/core': 7.28.3
+      '@ember/edition-utils': 1.2.0
+      '@embroider/addon-shim': 1.10.0
+      '@glimmer/compiler': 0.94.11
+      '@glimmer/component': 2.0.0
+      '@glimmer/destroyable': 0.94.8
+      '@glimmer/global-context': 0.93.4
+      '@glimmer/interfaces': 0.94.6
+      '@glimmer/manager': 0.94.10
+      '@glimmer/node': 0.94.10
+      '@glimmer/opcode-compiler': 0.94.10
+      '@glimmer/owner': 0.93.4
+      '@glimmer/program': 0.94.10
+      '@glimmer/reference': 0.94.9
+      '@glimmer/runtime': 0.94.11
+      '@glimmer/syntax': 0.95.0
+      '@glimmer/util': 0.94.8
+      '@glimmer/validator': 0.95.0
+      '@glimmer/vm': 0.94.8
+      '@glimmer/vm-babel-plugins': 0.93.5(@babel/core@7.28.3)
+      '@simple-dom/interface': 1.4.0
+      backburner.js: 2.8.0
+      broccoli-file-creator: 2.1.1
+      broccoli-funnel: 3.0.8
+      broccoli-merge-trees: 4.2.0
+      chalk: 4.1.2
+      ember-cli-babel: 8.2.0(@babel/core@7.28.3)
+      ember-cli-get-component-path-option: 1.0.0
+      ember-cli-is-package-missing: 1.0.0
+      ember-cli-normalize-entity-name: 1.0.0
+      ember-cli-path-utils: 1.0.0
+      ember-cli-string-utils: 1.1.0
+      ember-cli-typescript-blueprint-polyfill: 0.1.0
+      ember-cli-version-checker: 5.1.2
+      ember-router-generator: 2.0.0
+      inflection: 2.0.1
+      route-recognizer: 0.3.4
+      router_js: 8.0.6(route-recognizer@0.3.4)(rsvp@4.8.5)
+      semver: 7.7.2
+      silent-error: 1.1.1
+      simple-html-tokenizer: 0.5.11
+    transitivePeerDependencies:
+      - rsvp
       - supports-color
 
   ember-source@file:docs/ember-source-6.8.0-alpha.1.canary+6cf7c2d7.tgz(@glimmer/component@2.0.0)(rsvp@4.8.5):
