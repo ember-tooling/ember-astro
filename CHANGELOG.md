@@ -2,6 +2,21 @@
 
 ## Release (2025-12-30)
 
+* ember-astro 0.1.2 (patch)
+
+#### :memo: Documentation
+* `ember-astro`
+  * [#18](https://github.com/ember-tooling/ember-astro/pull/18) Link out to ember in the README ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+
+#### :house: Internal
+* `ember-astro`
+  * [#16](https://github.com/ember-tooling/ember-astro/pull/16) pnpm dlx create-release-plan-setup@5.1.0 --update ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+
+#### Committers: 1
+- [@NullVoxPopuli](https://github.com/NullVoxPopuli)
+
+## Release (2025-12-30)
+
 * ember-astro 0.1.1 (patch)
 
 #### :memo: Documentation

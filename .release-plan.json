@@ -2,17 +2,21 @@
   "solution": {
     "ember-astro": {
       "impact": "patch",
-      "oldVersion": "0.1.0",
-      "newVersion": "0.1.1",
+      "oldVersion": "0.1.1",
+      "newVersion": "0.1.2",
       "tagName": "latest",
       "constraints": [
         {
           "impact": "patch",
           "reason": "Appears in changelog section :memo: Documentation"
+        },
+        {
+          "impact": "patch",
+          "reason": "Appears in changelog section :house: Internal"
         }
       ],
       "pkgJSONPath": "./package.json"
     }
   },
-  "description": "## Release (2025-12-30)\n\n* ember-astro 0.1.1 (patch)\n\n#### :memo: Documentation\n* `ember-astro`\n  * [#14](https://github.com/ember-tooling/ember-astro/pull/14) Revise installation command and component reference ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### Committers: 1\n- [@NullVoxPopuli](https://github.com/NullVoxPopuli)\n"
+  "description": "## Release (2025-12-30)\n\n* ember-astro 0.1.2 (patch)\n\n#### :memo: Documentation\n* `ember-astro`\n  * [#18](https://github.com/ember-tooling/ember-astro/pull/18) Link out to ember in the README ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### :house: Internal\n* `ember-astro`\n  * [#16](https://github.com/ember-tooling/ember-astro/pull/16) pnpm dlx create-release-plan-setup@5.1.0 --update ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### Committers: 1\n- [@NullVoxPopuli](https://github.com/NullVoxPopuli)\n"
 }
