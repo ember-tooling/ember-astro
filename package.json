@@ -3,9 +3,14 @@
 	"version": "0.0.1",
 	"description": "ember integration for astro.build",
 	"keywords": [
-		"ember-addon"
+		"ember-addon",
+		"astro-integration",
+		"withastro",
+		"astro-component",
+		"renderer"
 	],
 	"repository": "https://github.com/universal-ember/ember-astro",
+	"homepage": "https://github.com/universal-ember/ember-astro#readme",
 	"license": "MIT",
 	"author": "NullVoxPopuli",
 	"type": "module",
