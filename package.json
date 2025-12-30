@@ -9,8 +9,8 @@
     "astro-component",
     "renderer"
   ],
-  "repository": "https://github.com/universal-ember/ember-astro",
   "homepage": "https://github.com/universal-ember/ember-astro#readme",
+  "repository": "https://github.com/universal-ember/ember-astro",
   "license": "MIT",
   "author": "NullVoxPopuli",
   "type": "module",
@@ -43,10 +43,10 @@
   "devDependencies": {
     "@ember/library-tsconfig": "^1.1.3",
     "concurrently": "^9.2.1",
+    "ember-source": "~6.8.0",
     "prettier": "^3.6.2",
     "prettier-plugin-ember-template-tag": "^2.1.0",
-    "ember-source": "~6.8.0",
-    "release-plan": "^0.16.0",
+    "release-plan": "^0.17.0",
     "typescript": "^5.9.2"
   },
   "peerDependencies": {
@@ -54,12 +54,12 @@
     "ember-source": ">= 6.8.2"
   },
   "packageManager": "pnpm@10.15.0",
+  "engines": {
+    "node": "^20.11.0 || ^22 || >=24"
+  },
   "ember-addon": {
     "version": 2,
     "type": "addon",
     "main": "./ember-addon-main.cjs"
-  },
-  "engines": {
-    "node": "^20.11.0 || ^22 || >=24"
   }
 }
