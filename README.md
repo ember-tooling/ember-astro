@@ -5,7 +5,7 @@ Ember integration with [astro.build](https://astro.build/)
 ## Install
 
 ```
-pnpm add ember-astro ember-source@6.7.0-beta.1
+pnpm add ember-astro ember-source@6.8.2 # or newer
 ```
 
 ## Setup
@@ -58,7 +58,7 @@ import HelloWorld from '../components/demo.gjs';
 <html>
   <body>
     <h1>Use Ember components directly in Astro!</h1>
-    <HelloWorld client:only="ember-astro" />
+    <HelloWorld client:only="ember" />
   </body>
 </html>
 ```
