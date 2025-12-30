@@ -1,65 +1,72 @@
 {
-  "name": "ember-astro",
-  "version": "0.1.2",
-  "description": "ember integration for astro.build",
-  "keywords": [
-    "ember-addon",
-    "astro-integration",
-    "withastro",
-    "astro-component",
-    "renderer"
-  ],
-  "homepage": "https://github.com/universal-ember/ember-astro#readme",
-  "repository": "https://github.com/universal-ember/ember-astro",
-  "license": "MIT",
-  "author": "NullVoxPopuli",
-  "type": "module",
-  "exports": {
-    ".": "./src/index.js",
-    "./client.js": "./src/client.js",
-    "./server.js": "./src/server.js",
-    "./ember-addon-main": "./ember-addon-main.cjs",
-    "./package.json": "./package.json"
-  },
-  "types": "./dist/index.d.ts",
-  "scripts": {
-    "dev": "cd docs && pnpm dev",
-    "format": "prettier . --write",
-    "lint": "concurrently 'pnpm:lint:*(!fix)' --prefixColors auto",
-    "lint:format": "prettier . --write",
-    "lint:types": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@babel/core": "^7.28.3",
-    "@embroider/core": "^4.1.3",
-    "@embroider/macros": "^1.18.1",
-    "@embroider/vite": "^1.2.0",
-    "@glimmer/component": "^2.0.0",
-    "@rollup/plugin-babel": "^6.0.4",
-    "babel-plugin-ember-template-compilation": "^2.4.1",
-    "decorator-transforms": "^2.3.0",
-    "ember-strict-application-resolver": "^0.1.0"
-  },
-  "devDependencies": {
-    "@ember/library-tsconfig": "^1.1.3",
-    "concurrently": "^9.2.1",
-    "ember-source": "~6.8.0",
-    "prettier": "^3.6.2",
-    "prettier-plugin-ember-template-tag": "^2.1.0",
-    "release-plan": "^0.17.0",
-    "typescript": "^5.9.2"
-  },
-  "peerDependencies": {
-    "astro": "^5.0.0",
-    "ember-source": ">= 6.8.2"
-  },
-  "packageManager": "pnpm@10.15.0",
-  "engines": {
-    "node": "^20.11.0 || ^22 || >=24"
-  },
-  "ember-addon": {
-    "version": 2,
-    "type": "addon",
-    "main": "./ember-addon-main.cjs"
-  }
+	"name": "ember-astro",
+	"version": "0.1.2",
+	"description": "ember integration for astro.build",
+	"keywords": [
+		"ember-addon",
+		"astro-integration",
+		"withastro",
+		"astro-component",
+		"renderer"
+	],
+	"homepage": "https://github.com/ember-tooling/ember-astro#readme",
+	"repository": {
+		"url": "git+https://github.com/ember-tooling/ember-astro.git",
+		"type": "git"
+	},
+	"license": "MIT",
+	"author": "NullVoxPopuli",
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./src/index.d.ts",
+			"default": "./src/index.js"
+		},
+		"./client.js": "./src/client.js",
+		"./server.js": "./src/server.js",
+		"./ember-addon-main": "./ember-addon-main.cjs",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"dev": "cd docs && pnpm dev",
+		"format": "prettier . --write",
+		"lint": "concurrently 'pnpm:lint:*(!fix)' --prefixColors auto",
+		"lint:format": "prettier . --write",
+		"lint:types": "tsc --noEmit",
+		"lint:publish": "publint ."
+	},
+	"dependencies": {
+		"@babel/core": "^7.28.3",
+		"@embroider/core": "^4.1.3",
+		"@embroider/macros": "^1.18.1",
+		"@embroider/vite": "^1.2.0",
+		"@glimmer/component": "^2.0.0",
+		"@rollup/plugin-babel": "^6.0.4",
+		"babel-plugin-ember-template-compilation": "^2.4.1",
+		"decorator-transforms": "^2.3.0",
+		"ember-strict-application-resolver": "^0.1.0"
+	},
+	"devDependencies": {
+		"@ember/library-tsconfig": "^1.1.3",
+		"concurrently": "^9.2.1",
+		"ember-source": "~6.8.0",
+		"prettier": "^3.6.2",
+		"prettier-plugin-ember-template-tag": "^2.1.0",
+		"publint": "^0.3.16",
+		"release-plan": "^0.17.0",
+		"typescript": "^5.9.2"
+	},
+	"peerDependencies": {
+		"astro": "^5.0.0",
+		"ember-source": ">= 6.8.2"
+	},
+	"packageManager": "pnpm@10.15.0",
+	"engines": {
+		"node": "^20.11.0 || ^22 || >=24"
+	},
+	"ember-addon": {
+		"version": 2,
+		"type": "addon",
+		"main": "./ember-addon-main.cjs"
+	}
 }

@@ -1,7 +1,6 @@
 import { ember as emberVite, extensions } from "@embroider/vite";
 import { babel } from "@rollup/plugin-babel";
 import { buildMacros } from "@embroider/macros/babel";
-import { createRequire } from "node:module";
 
 const macros = buildMacros();
 
