@@ -2,6 +2,21 @@
 
 ## Release (2025-12-30)
 
+* ember-astro 0.1.3 (patch)
+
+#### :bug: Bug Fix
+* `ember-astro`
+  * [#19](https://github.com/ember-tooling/ember-astro/pull/19) Add publint and fix the violations it reported ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+
+#### :house: Internal
+* `ember-astro`
+  * [#19](https://github.com/ember-tooling/ember-astro/pull/19) Add publint and fix the violations it reported ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+
+#### Committers: 1
+- [@NullVoxPopuli](https://github.com/NullVoxPopuli)
+
+## Release (2025-12-30)
+
 * ember-astro 0.1.2 (patch)
 
 #### :memo: Documentation
