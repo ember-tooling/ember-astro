@@ -5,7 +5,7 @@
 ## Install
 
 ```
-pnpm add ember-astro ember-source@6.8.2 # or newer, 6.12+ recommended
+pnpm add ember-astro ember-source@6.8.2 # or newer, 6.12+ recommended (for `renderComponent` bugfixes)
 ```
 
 ## Setup
