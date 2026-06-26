@@ -5,7 +5,7 @@
 	"compilerOptions": {
 		"types": ["ember-source/types", "vite/client"],
 		"paths": {
-			"ember-astro": ".."
+			"ember-astro": [".."]
 		}
 	}
 }
