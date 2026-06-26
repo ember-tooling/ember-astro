@@ -11,8 +11,8 @@
   ],
   "homepage": "https://github.com/ember-tooling/ember-astro#readme",
   "repository": {
-    "url": "git+https://github.com/ember-tooling/ember-astro.git",
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/ember-tooling/ember-astro.git"
   },
   "license": "MIT",
   "author": "NullVoxPopuli",
@@ -32,8 +32,8 @@
     "format": "prettier . --write",
     "lint": "concurrently 'pnpm:lint:*(!fix)' --prefixColors auto",
     "lint:format": "prettier . --write",
-    "lint:types": "tsc --noEmit",
-    "lint:publish": "publint ."
+    "lint:publish": "publint .",
+    "lint:types": "tsc --noEmit"
   },
   "dependencies": {
     "@babel/core": "^7.28.3",
@@ -53,7 +53,7 @@
     "prettier": "^3.6.2",
     "prettier-plugin-ember-template-tag": "^2.1.0",
     "publint": "^0.3.16",
-    "release-plan": "^0.17.0",
+    "release-plan": "^0.18.0",
     "typescript": "^5.9.2"
   },
   "peerDependencies": {
