@@ -23,3 +23,22 @@ jobs:
     steps:
       - uses: wyvox/action@v1
       - run: pnpm lint
+
+  e2e:
+    name: "E2E"
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: wyvox/action@v1
+      - name: Install Playwright browser
+        run: pnpm --filter docs-for-ember-astro exec playwright install --with-deps chromium
+      - name: Run e2e tests
+        run: pnpm --filter docs-for-ember-astro test:e2e
+      - name: Upload report
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: docs/playwright-report/
+          retention-days: 7
