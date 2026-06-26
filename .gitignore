@@ -1,7 +1,11 @@
 .env
+.claude/
 .env.production
 .astro/
 .log/
 .DS_Store
 node_modules/
 dist/
+test-results/
+playwright-report/
+playwright/.cache/
