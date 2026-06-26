@@ -12,7 +12,8 @@
 		"start": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
-		"astro": "astro"
+		"astro": "astro",
+		"test:e2e": "playwright test"
 	},
 	"dependencies": {
 		"astro": "^7.0.3",
@@ -20,5 +21,8 @@
 		"ember-source": "~7.1.0",
 		"sharp": "^0.34.2",
 		"vite": "^8.1.0"
+	},
+	"devDependencies": {
+		"@playwright/test": "^1.61.1"
 	}
 }
