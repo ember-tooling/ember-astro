@@ -1,5 +1,25 @@
 # Changelog
 
+## Release (2026-06-27)
+
+* ember-astro 0.2.0 (minor)
+
+#### :rocket: Enhancement
+* `ember-astro`
+  * [#24](https://github.com/ember-tooling/ember-astro/pull/24) [Breaking] Upgrade astro and ember-source for ember 7 support ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+
+#### :memo: Documentation
+* `ember-astro`
+  * [#21](https://github.com/ember-tooling/ember-astro/pull/21) Update installation instructions for ember-source ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+
+#### :house: Internal
+* `ember-astro`
+  * [#26](https://github.com/ember-tooling/ember-astro/pull/26) Add playwright tests ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+  * [#25](https://github.com/ember-tooling/ember-astro/pull/25) Update release-plan ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+
+#### Committers: 1
+- [@NullVoxPopuli](https://github.com/NullVoxPopuli)
+
 ## Release (2025-12-30)
 
 * ember-astro 0.1.3 (patch)

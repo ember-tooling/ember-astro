@@ -1,14 +1,18 @@
 {
   "solution": {
     "ember-astro": {
-      "impact": "patch",
-      "oldVersion": "0.1.2",
-      "newVersion": "0.1.3",
+      "impact": "minor",
+      "oldVersion": "0.1.3",
+      "newVersion": "0.2.0",
       "tagName": "latest",
       "constraints": [
         {
+          "impact": "minor",
+          "reason": "Appears in changelog section :rocket: Enhancement"
+        },
+        {
           "impact": "patch",
-          "reason": "Appears in changelog section :bug: Bug Fix"
+          "reason": "Appears in changelog section :memo: Documentation"
         },
         {
           "impact": "patch",
@@ -18,5 +22,5 @@
       "pkgJSONPath": "./package.json"
     }
   },
-  "description": "## Release (2025-12-30)\n\n* ember-astro 0.1.3 (patch)\n\n#### :bug: Bug Fix\n* `ember-astro`\n  * [#19](https://github.com/ember-tooling/ember-astro/pull/19) Add publint and fix the violations it reported ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### :house: Internal\n* `ember-astro`\n  * [#19](https://github.com/ember-tooling/ember-astro/pull/19) Add publint and fix the violations it reported ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### Committers: 1\n- [@NullVoxPopuli](https://github.com/NullVoxPopuli)\n"
+  "description": "## Release (2026-06-27)\n\n* ember-astro 0.2.0 (minor)\n\n#### :rocket: Enhancement\n* `ember-astro`\n  * [#24](https://github.com/ember-tooling/ember-astro/pull/24) [Breaking] Upgrade astro and ember-source for ember 7 support ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### :memo: Documentation\n* `ember-astro`\n  * [#21](https://github.com/ember-tooling/ember-astro/pull/21) Update installation instructions for ember-source ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### :house: Internal\n* `ember-astro`\n  * [#26](https://github.com/ember-tooling/ember-astro/pull/26) Add playwright tests ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n  * [#25](https://github.com/ember-tooling/ember-astro/pull/25) Update release-plan ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### Committers: 1\n- [@NullVoxPopuli](https://github.com/NullVoxPopuli)\n"
 }
