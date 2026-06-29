@@ -2,8 +2,6 @@ import { ember as emberVite, extensions } from "@embroider/vite";
 import { babel } from "@rollup/plugin-babel";
 import { buildMacros } from "@embroider/macros/babel";
 
-const macros = buildMacros();
-
 function getRenderer() {
 	return {
 		name: "ember-astro",
@@ -19,7 +17,14 @@ export function getContainerRenderer() {
 	};
 }
 
-function emberIntegration(/* options */) {
+function emberIntegration(options = {}) {
+	// Forward a `configure` callback to buildMacros so consumers can register
+	// Embroider macros global config (e.g. WarpDrive/ember-data via `setConfig`).
+	// Needed when compiling apps/libs gated on `getGlobalConfig().<pkg>.env` —
+	// without it the build throws on that value being undefined. Omitting
+	// `configure` is identical to the previous `buildMacros()` call.
+	const macros = buildMacros({ configure: options.configure });
+
 	return {
 		name: "ember-astro",
 		hooks: {
